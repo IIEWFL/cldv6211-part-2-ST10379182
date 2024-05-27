@@ -1,0 +1,420 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\models\\useraccountadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:models\\useraccountadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\mywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\mywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\migrations\\20240526163228_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:migrations\\20240526163228_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\liamp\\OneDrive\\Documents\\KhumaloCraftWebAppPart2\\Models\\UserAccountAdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\addtransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\addtransaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\migrations\\20240526163228_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:migrations\\20240526163228_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|c:\\users\\liamp\\onedrive\\desktop\\webapppart2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6ACF404-4D51-4503-B203-0E4143D3926F}|WebappPart2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAccountAdd.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\UserAccountAdd.cs",
+              "RelativeDocumentMoniker": "Models\\UserAccountAdd.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\UserAccountAdd.cs",
+              "RelativeToolTip": "Models\\UserAccountAdd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:14:48.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:27:25.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:24:07.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:13:05.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:12:21.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:57:49.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:22:20.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:43:17.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:01:38.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:43:33.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "myWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\myWork.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\myWork.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\myWork.cshtml",
+              "RelativeToolTip": "Views\\Home\\myWork.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:43:29.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Home\\Upload.cshtml",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAswL0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T17:18:17.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:02:01.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240526163228_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Migrations\\20240526163228_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240526163228_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Migrations\\20240526163228_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240526163228_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:21:37.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:12:53.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserAccountAdd.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Documents\\KhumaloCraftWebAppPart2\\Models\\UserAccountAdd.cs",
+              "RelativeDocumentMoniker": "..\\..\\Documents\\KhumaloCraftWebAppPart2\\Models\\UserAccountAdd.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Documents\\KhumaloCraftWebAppPart2\\Models\\UserAccountAdd.cs",
+              "RelativeToolTip": "..\\..\\Documents\\KhumaloCraftWebAppPart2\\Models\\UserAccountAdd.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:33:48.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddTransaction.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\AddTransaction.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AddTransaction.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\AddTransaction.cshtml",
+              "RelativeToolTip": "Views\\Home\\AddTransaction.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAIMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T17:19:16.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "Views\\Home\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:48:07.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "contactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\contactUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\contactUs.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\contactUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\contactUs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T17:19:19.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T17:44:11.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:58:34.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240526163228_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Migrations\\20240526163228_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240526163228_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Migrations\\20240526163228_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20240526163228_InitialCreate.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:01:55.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwCwAAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:01:00.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\liamp\\OneDrive\\Desktop\\WebappPart2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T15:58:12.422Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

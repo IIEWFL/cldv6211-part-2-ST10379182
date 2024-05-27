@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Product - KhumaloCraft</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea,
+        input[type="file"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        #availability {
+            height: 75px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #333;
+            }
+
+        .product-item {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            text-align: left;
+        }
+
+            .product-item h2 {
+                color: #fff;
+            }
+
+            .product-item p {
+                color: #ccc;
+            }
+
+        .product-item-buttons {
+            margin-top: 10px;
+        }
+
+            .product-item-buttons button {
+                background-color: #555;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 5px 10px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+
+                .product-item-buttons button:hover {
+                    background-color: #777;
+                }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Product</h1>
+        <form id="productForm">
+            <label for="ProductName">ProductName</label>
+            <input type="text" id="ProductName" name="ProductName" placeholder="Enter product name" required>
+
+
+
+            <label for="Price">Price ($)</label>
+            <input type="number" id="Price" name="Price" placeholder="Enter product price" required min="0" step="0.01">
+
+            <label for="Description">Description</label>
+            <textarea id="Description" name="Description" placeholder="Enter product description" rows="4" required></textarea>
+
+
+
+            <label for="Availability">Availability</label>
+            <textarea id="Availability" name="Availability" placeholder="Enter product availability" rows="2" required></textarea>
+
+            <input type="submit" value="Upload Product">
+        </form>
+
+        <div id="productList"></div>
+    </div>
+
+    <script>
+        document.getElementById('productForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById('ProductName').value;
+            const artist = document.getElementById('ArtistName').value;
+            const price = document.getElementById('Price').value;
+            const description = document.getElementById('Description').value;
+            const category = document.getElementById('Category').value;
+            const availability = document.getElementById('Availability').value;
+
+            // Create product item
+            const productItem = document.createElement('div');
+            productItem.classList.add('product-item');
+            productItem.innerHTML = `
+                                                <h2>${name}</h2>
+                                                <p><strong>Artist:</strong> ${artist}</p>
+                                                <p><strong>Price:</strong> $${price}</p>
+                                                <p><strong>Description:</strong> ${description}</p>
+                                                <p><strong>Category:</strong> ${category}</p>
+                                                <p><strong>Availability:</strong> ${availability}</p>
+                                                <div class="product-item-buttons">
+                                                    <button class="edit">Edit</button>
+                                                    <button class="delete">Delete</button>
+                                                </div>
+                                            `;
+
+            // Add product item to the product list
+            document.getElementById('productList').appendChild(productItem);
+
+            // Add event listeners to edit and delete buttons
+            productItem.querySelector('.edit').addEventListener('click', function () {
+                // Implement edit functionality here
+                // You can pre-fill the form with product details for editing
+                alert('Edit functionality will be implemented soon!');
+            });
+
+            productItem.querySelector('.delete').addEventListener('click', function () {
+                // Remove the product item from the list
+                productItem.remove();
+            });
+
+            // Clear the form
+            document.getElementById('productForm').reset();
+        });
+    </script>
+</body>
+</html>

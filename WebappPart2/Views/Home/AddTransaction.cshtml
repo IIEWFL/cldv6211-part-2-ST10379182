@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Transaction - KhumaloCraft</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff; /* Set background color to white */
+            color: #000; /* Set text color to black */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+
+        form {
+            background-color: #fff; /* Set background color to white */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="number"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #000;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #333;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Add Transaction</h1>
+        <form id="transactionForm">
+            <label for="itemID">Item ID</label>
+            <input id="itemID" type="text" name="itemID" placeholder="Enter item ID" required>
+
+            <label for="orderDate">Order Date (yyyy.mm.dd)</label>
+            <input id="orderDate" type="date" name="orderDate" required>
+
+            <label for="quantity">Quantity</label>
+            <input id="quantity" type="number" name="quantity" placeholder="Enter quantity purchased" required min="1">
+
+            <input type="submit" value="Create Transaction">
+        </form>
+
+        <div class="transaction-list" id="transactionList"></div>
+
+        <button id="addNewTransaction">Add New Transaction</button>
+    </div>
+
+    <script>
+        document.getElementById('transactionForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const itemID = document.getElementById('itemID').value;
+            const orderDate = document.getElementById('orderDate').value;
+            const quantity = document.getElementById('quantity').value;
+
+            const transactionList = document.getElementById('transactionList');
+
+            const transactionItem = document.createElement('div');
+            transactionItem.className = 'transaction-item';
+            transactionItem.innerHTML = `
+                                                <div class="transaction-item-details">
+                                                    <p><strong>Item ID:</strong> ${itemID}</p>
+                                                    <p><strong>Order Date:</strong> ${orderDate}</p>
+                                                    <p><strong>Quantity:</strong> ${quantity}</p>
+                                                </div>
+                                                <div class="transaction-item-buttons">
+                                                    <button class="edit">Edit</button>
+                                                    <button class="delete">Delete</button>
+                                                </div>
+                                            `;
+
+            transactionItem.querySelector('.delete').addEventListener('click', function () {
+                transactionList.removeChild(transactionItem);
+            });
+
+            transactionItem.querySelector('.edit').addEventListener('click', function () {
+                document.getElementById('itemID').value = itemID;
+                document.getElementById('orderDate').value = orderDate;
+                document.getElementById('quantity').value = quantity;
+                transactionList.removeChild(transactionItem);
+            });
+
+            transactionList.appendChild(transactionItem);
+
+            // Clear the form
+            document.getElementById('transactionForm').reset();
+        });
+
+        document.getElementById('addNewTransaction').addEventListener('click', function () {
+            document.getElementById('transactionForm').reset();
+        });
+    </script>
+</body>
+</html>
